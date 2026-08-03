@@ -39,9 +39,6 @@ No Python installation is required for the distributed executable build.
    ./AudioManager
    ```
 
-#### Windows
-If a Windows build is available, download the `.exe` version and run it normally.
-
 ### 📁 Repository purpose
 This repository is intended only to:
 - distribute the application
@@ -86,10 +83,7 @@ Aucune installation de Python n'est nécessaire pour utiliser la version distrib
    ```bash
    ./AudioManager
    ```
-
-#### Windows
-Si une version Windows est disponible, téléchargez le fichier `.exe` et lancez-le normalement.
-
+   
 ### 📁 But du dépôt
 Ce dépôt a uniquement pour objectif de :
 - distribuer l'application
