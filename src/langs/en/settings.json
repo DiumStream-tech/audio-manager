@@ -1,0 +1,13 @@
+{
+  "title": "Settings",
+  "section_appearance": "Appearance",
+  "section_language": "Language",
+  "section_github": "GitHub & Updates",
+  "open_github": "Open GitHub Repository",
+  "check_updates": "Check for Updates",
+  "checking": "Checking…",
+  "view_changelog": "View Changelog",
+  "close": "Close",
+  "theme_label": "Theme",
+  "updates_disabled_note": "Updates are disabled for now during development — releases will be distributed via GitHub once the repository is public."
+}

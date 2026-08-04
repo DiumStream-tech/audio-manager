@@ -1,0 +1,7 @@
+{
+  "single_instance": "The application is already running.",
+  "dev_mode": "[{app}] Developer mode enabled (single-instance disabled)",
+  "file_changed": "[{app}] File changed: {path} → restarting",
+  "backend": "[{app}] Backend: {backend}",
+  "backend_unavailable": "{backend}: some features are unavailable.\n{items}"
+}

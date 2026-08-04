@@ -1,0 +1,8 @@
+{
+  "error_title": "Verificación imposible",
+  "error_body": "No se pudieron verificar las actualizaciones: {error}",
+  "available_title": "Actualización disponible",
+  "available_body": "Hay una nueva versión disponible: {latest} (versión actual: {current}).\n\nAbre el repositorio de GitHub para descargarla.",
+  "up_to_date_title": "Actualizado",
+  "up_to_date_body": "Ya estás utilizando la última versión ({current})."
+}

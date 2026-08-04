@@ -1,0 +1,5 @@
+{
+  "bad_local_version": "Version locale illisible : {version!r}.",
+  "bad_github_url": "URL du dépôt GitHub invalide.",
+  "unexpected_response": "Réponse GitHub inattendue."
+}

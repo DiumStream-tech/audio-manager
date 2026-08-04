@@ -1,0 +1,11 @@
+{
+  "streaming_start": "Enable streaming mode",
+  "streaming_stop": "Disable streaming mode",
+  "link": "Linked sliders",
+  "unlink": "Independent sliders",
+  "channel_game": "Game",
+  "channel_chat": "Chat / Voice",
+  "channel_media": "Media",
+  "channel_music": "Music",
+  "channel_mic_aux": "Mic / Aux"
+}

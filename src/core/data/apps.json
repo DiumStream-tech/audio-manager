@@ -1,0 +1,85 @@
+{
+  "known_apps": {
+    "discord": { "label": "Discord", "slug": "discord" },
+    "discordptb": { "label": "Discord PTB", "slug": "discord" },
+    "discordcanary": { "label": "Discord Canary", "slug": "discord" },
+    "teamspeak": { "label": "TeamSpeak", "slug": "teamspeak" },
+    "telegram": { "label": "Telegram", "slug": "telegram" },
+    "signal": { "label": "Signal", "slug": "signal" },
+    "slack": { "label": "Slack", "slug": "slack" },
+    "teams": { "label": "Microsoft Teams", "slug": "microsoftteams" },
+    "zoom": { "label": "Zoom", "slug": "zoom" },
+    "skypeforlinux": { "label": "Skype", "slug": "skype" },
+    "mumble": { "label": "Mumble", "slug": "mumble" },
+
+    "roblox": { "label": "Roblox", "slug": "roblox" },
+    "robloxplayer": { "label": "Roblox", "slug": "roblox" },
+    "sober": { "label": "Roblox", "slug": "roblox" },
+
+    "robloxstudio": { "label": "Roblox Studio", "slug": "robloxstudio" },
+    "vinegar": { "label": "Roblox Studio", "slug": "robloxstudio" },
+
+    "steam": { "label": "Steam", "slug": "steam" },
+    "steamwebhelper": null,
+    "lutris": { "label": "Lutris", "slug": "lutris" },
+    "heroic": { "label": "Heroic Games Launcher", "slug": "heroicgameslauncher" },
+    "bottles": { "label": "Bottles", "slug": "bottles" },
+    "prismlauncher": { "label": "Prism Launcher (Minecraft)", "slug": "prismlauncher" },
+    "minecraft": { "label": "Minecraft", "slug": "minecraft" },
+    "javaw": null,
+    "wine": { "label": "Application Windows (Wine)", "slug": "wine" },
+    "gamescope": null,
+
+    "firefox": { "label": "Firefox", "slug": "firefox" },
+    "firefoxesr": { "label": "Firefox", "slug": "firefox" },
+    "chrome": { "label": "Google Chrome", "slug": "googlechrome" },
+    "chromium": { "label": "Chromium", "slug": "chromium" },
+    "brave": { "label": "Brave", "slug": "brave" },
+    "vivaldbin": { "label": "Vivaldi", "slug": "vivaldi" },
+    "microsoftedge": { "label": "Edge", "slug": "microsoftedge" },
+    "opera": { "label": "Opera", "slug": "opera" },
+
+    "spotify": { "label": "Spotify", "slug": "spotify" },
+    "vlc": { "label": "VLC", "slug": "vlcmediaplayer" },
+    "mpv": { "label": "mpv", "slug": "mpv" },
+    "obs": { "label": "OBS Studio", "slug": "obsstudio" },
+    "audacious": { "label": "Audacious", "slug": "audacious" },
+    "rhythmbox": { "label": "Rhythmbox", "slug": "rhythmbox" },
+    "geforcenow": { "label": "GeForce NOW", "slug": "nvidia" }
+  },
+
+  "stream_aliases": {
+    "discord": "discord",
+    "discordptb": "discordptb",
+    "discordcanary": "discordcanary",
+    "webrtcvoiceengine": "discord",
+    "webrtc voice engine": "discord",
+
+    "slack": "slack",
+    "zoom": "zoom",
+
+    "google chrome": "chrome",
+    "chromium": "chromium",
+    "firefox": "firefox",
+    "mozilla firefox": "firefox",
+
+    "steam": "steam",
+    "steamwebhelper": null,
+
+    "roblox": "roblox",
+    "robloxplayer": "roblox",
+    "sober": "roblox",
+    "roblox studio": "robloxstudio",
+    "robloxstudio": "robloxstudio",
+    "vinegar": "robloxstudio",
+
+    "pipewire": null,
+    "pipewirebluetoothpolicy": null
+  },
+
+  "ignored_binaries": [
+    "pipewire", "pipewire-pulse", "wireplumber", "pulseaudio",
+    "systemd", "bash", "sh", "zsh", "fish", "python", "python3",
+    "kwin_x11", "kwin_wayland", "gnome-shell", "plasmashell", "xorg", "xwayland"
+  ]
+}
