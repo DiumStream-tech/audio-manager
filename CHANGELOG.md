@@ -1,7 +1,17 @@
 # Changelog — Audio Manager
 
-All notable changes to this project are documented here.  
-Versions follow [Semantic Versioning](https://semver.org/) (loosely, while pre-release).
+---
+
+## [0.0.4] — 2026-08-04
+
+### Changed
+- Refactored the codebase to improve structure and long-term maintainability.
+- Reorganized several UI and core modules into dedicated folders for better clarity.
+
+### Fixed
+- Fixed missing translations across the interface.
+- Fixed full compatibility with the language system (i18n) in dialogs, cards, streaming views, and the main window.
+- Fixed multiple hardcoded UI texts that were not using the translation system.
 
 ---
 
