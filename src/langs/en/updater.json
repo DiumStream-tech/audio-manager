@@ -1,5 +1,0 @@
-{
-  "bad_local_version": "Unreadable local version: {version!r}.",
-  "bad_github_url": "Invalid GitHub repository URL.",
-  "unexpected_response": "Unexpected GitHub response."
-}

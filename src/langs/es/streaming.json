@@ -1,7 +1,0 @@
-{
-  "toggle_enable": "Activar el modo streaming",
-  "toggle_disable": "Desactivar el modo streaming",
-  "error_pactl": "No se pudo activar el modo streaming: no se encuentra 'pactl' o falló la creación de los dispositivos virtuales.",
-  "info_active": "Modo streaming activo. En OBS (o equivalente), elige «Monitor de {sink}» como captura de audio de escritorio; este es la mezcla de difusión a continuación. Sigues escuchando tu mezcla de auriculares con normalidad. Luego, mueve cada aplicación a un canal desde la pestaña Reproducción.",
-  "info_inactive": "El modo streaming crea canales virtuales (Juego, Chat, Multimedia, Música) con dos mezclas independientes: lo que escuchas (Auriculares) y lo que captura tu software de streaming (Difusión). Actívalo para comenzar."
-}

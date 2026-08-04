@@ -1,7 +1,0 @@
-{
-  "toggle_enable": "Enable streaming mode",
-  "toggle_disable": "Disable streaming mode",
-  "error_pactl": "Unable to enable streaming mode: 'pactl' was not found or virtual device creation failed.",
-  "info_active": "Streaming mode active. In OBS (or equivalent), choose \"{sink}\" as your desktop audio capture -- that's the Stream mix below. You still hear the Headphones mix normally. Then move each app to a channel from the Playback tab.",
-  "info_inactive": "Streaming mode creates virtual channels (Game, Chat, Media, Music) with two independent mixes — what you hear (Headphones) and what your streaming software captures (Stream). Enable it to get started."
-}

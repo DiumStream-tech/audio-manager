@@ -1,7 +1,0 @@
-{
-  "single_instance": "La aplicación ya está en ejecución.",
-  "dev_mode": "[{app}] Modo de desarrollo activado (single-instance desactivado)",
-  "file_changed": "[{app}] Archivo modificado: {path} → reiniciando",
-  "backend": "[{app}] Backend: {backend}",
-  "backend_unavailable": "{backend}: algunas funciones no están disponibles.\n{items}"
-}

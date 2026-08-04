@@ -1,7 +1,0 @@
-{
-  "toggle_enable": "Activer le mode streaming",
-  "toggle_disable": "Désactiver le mode streaming",
-  "error_pactl": "Impossible d'activer le mode streaming : 'pactl' est introuvable ou la création des périphériques virtuels a échoué.",
-  "info_active": "Mode streaming actif. Dans OBS (ou équivalent), choisis « Moniteur de {sink} » comme capture audio de bureau — c'est le mix Diffusion ci-dessous. Tu continues d'entendre le mix Casque normalement. Déplace ensuite chaque application vers un canal depuis l'onglet Lecture.",
-  "info_inactive": "Le mode streaming crée des canaux virtuels (Jeu, Chat, Média, Musique) avec deux mixs indépendants — ce que tu entends (Casque) et ce que ton logiciel de streaming capture (Diffusion). Active-le pour commencer."
-}

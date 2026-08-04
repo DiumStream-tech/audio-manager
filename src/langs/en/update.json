@@ -1,8 +1,0 @@
-{
-  "error_title": "Check Failed",
-  "error_body": "Unable to check for updates: {error}",
-  "available_title": "Update Available",
-  "available_body": "A new version is available: {latest} (current: {current}).\n\nOpen the GitHub repository to download it.",
-  "up_to_date_title": "Up to Date",
-  "up_to_date_body": "You are already using the latest version ({current})."
-}
