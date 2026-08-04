@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <strong>🌍 Languages / Langues:</strong> English • Français
+  <strong>🌍 Languages / Langues:</strong> English • Français • Español
 </p>
 
 ---
@@ -18,6 +18,8 @@ AudioManager is a desktop application designed to help users manage audio device
 
 This public repository is used for **distribution only**.
 Only the compiled application file is provided here.
+
+**🌐 Available languages:** English, French, Spanish
 
 ### ⬇️ Download
 You only need to download the executable file:
@@ -63,6 +65,8 @@ AudioManager est une application desktop conçue pour gérer les périphériques
 
 Ce dépôt public GitHub est utilisé **uniquement pour la distribution**.
 Seul le fichier compilé de l'application est fourni ici.
+
+**🌐 Langues disponibles :** Anglais, Français, Espagnol
 
 ### ⬇️ Téléchargement
 Vous avez uniquement besoin de télécharger le fichier exécutable :
