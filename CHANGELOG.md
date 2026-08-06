@@ -2,6 +2,18 @@
 
 ---
 
+## [0.0.5] — 2026-08-06
+
+### Added
+- Settings and Changelog now open directly inside the main window — no more separate pop-up windows.
+- Startup loading screen that restores saved state (settings, streaming button) before showing the interface.
+- `STREAMING_SAVE_BUTTON_STATE` option in `config.py` — when enabled, the streaming mode button state is persisted across launches.
+- `SPLASH_DURATION_MS` option in `config.py` — controls the duration of the startup loading screen.
+- Full compatibility with the language system (i18n) for all new features (splash screen messages in EN/FR/ES).
+- Version 0.0.5 release notes added to all three language changelogs.
+
+---
+
 ## [0.0.4] — 2026-08-04
 
 ### Changed
