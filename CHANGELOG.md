@@ -2,6 +2,20 @@
 
 ---
 
+## [0.0.6] — 2026-08-06
+
+### Added
+- **Full Navigation Unification**: Settings and Changelog pages are now identical to other sections (Outputs, Inputs, etc.).
+- **Sidebar Reorganization**: Settings and Changelog buttons moved to the bottom of the sidebar, just above the Refresh button.
+- Removed internal headers and footers from Settings and Changelog to better integrate with the main interface.
+
+### Fixed
+- Fixed a bug where changing language or theme would force navigation away from the Settings page.
+- Restored audio safety (mute/unmute) when activating streaming mode, including during startup restoration.
+- The Settings page now remains active after applying changes, providing a smoother user experience.
+
+---
+
 ## [0.0.5] — 2026-08-06
 
 ### Added
@@ -19,11 +33,6 @@
 ### Changed
 - Refactored the codebase to improve structure and long-term maintainability.
 - Reorganized several UI and core modules into dedicated folders for better clarity.
-
-### Fixed
-- Fixed missing translations across the interface.
-- Fixed full compatibility with the language system (i18n) in dialogs, cards, streaming views, and the main window.
-- Fixed multiple hardcoded UI texts that were not using the translation system.
 
 ---
 
