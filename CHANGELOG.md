@@ -6,14 +6,14 @@
 ## [0.0.7] — 2026-08-07
 
 ### Refactoring & Architecture
-- **Refonte complète du dossier Style** : Suppression de `dialogs_style.py` et division de `base_style.py` en 4 fichiers distincts (`base.py`, `buttons.py`, `components.py`, `pages.py`) pour une meilleure maintenabilité.
-- **Nettoyage des imports** : Suppression de tous les fichiers `__init__.py` à travers le projet et mise à jour des importations pour utiliser les chemins explicites.
-- **Unification du Style** : Centralisation des styles des cartes (DeviceCard, StreamCard) dans la feuille de style globale via des propriétés dynamiques.
+- **Complete Style folder overhaul**: Removed `dialogs_style.py` and split `base_style.py` into 4 separate files (`base.py`, `buttons.py`, `components.py`, `pages.py`) for better maintainability.
+- **Import cleanup**: Removed all `__init__.py` files across the project and updated imports to use explicit paths.
+- **Style unification**: Centralized card styles (DeviceCard, StreamCard) in the global stylesheet via dynamic properties.
 
-### Optimisations
-- **Cache d'Icônes** : Implémentation d'un système de cache pour les icônes FontAwesome afin de réduire la charge CPU lors du rendu de l'interface.
-- **Optimisation du Rendu UI** : Suppression des appels fréquents à `setStyleSheet` dans les widgets au profit de sélecteurs de propriétés CSS, améliorant la fluidité de l'interface.
-- **Optimisation du Code** : Nettoyage global du code et amélioration de la structure des modules.
+### Optimizations
+- **Icon caching**: Implemented a caching system for FontAwesome icons to reduce CPU load during UI rendering.
+- **UI rendering optimization**: Removed frequent `setStyleSheet` calls in widgets in favor of CSS property selectors, improving interface smoothness.
+- **Code optimization**: Overall code cleanup and improved module structure.
 
 ### Fixed
 - Fixed a bug where the navigation button to the Streaming page was not translated (present since v0.0.6).
