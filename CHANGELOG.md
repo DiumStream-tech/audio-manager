@@ -2,6 +2,25 @@
 
 ---
 
+## [0.0.7] — 2026-08-07
+
+### Refactoring & Architecture
+- **Refonte complète du dossier Style** : Suppression de `dialogs_style.py` et division de `base_style.py` en 4 fichiers distincts (`base.py`, `buttons.py`, `components.py`, `pages.py`) pour une meilleure maintenabilité.
+- **Nettoyage des imports** : Suppression de tous les fichiers `__init__.py` à travers le projet et mise à jour des importations pour utiliser les chemins explicites.
+- **Unification du Style** : Centralisation des styles des cartes (DeviceCard, StreamCard) dans la feuille de style globale via des propriétés dynamiques.
+
+### Optimisations
+- **Cache d'Icônes** : Implémentation d'un système de cache pour les icônes FontAwesome afin de réduire la charge CPU lors du rendu de l'interface.
+- **Optimisation du Rendu UI** : Suppression des appels fréquents à `setStyleSheet` dans les widgets au profit de sélecteurs de propriétés CSS, améliorant la fluidité de l'interface.
+- **Optimisation du Code** : Nettoyage global du code et amélioration de la structure des modules.
+
+### Fixed
+- **Liaison des Sourdines (Mute)** : Correction d'un bug où la sourdine n'était pas synchronisée entre le mixage Casque et Stream lorsque le lien était activé.
+- **Synchronisation au Lien** : La liaison d'un canal synchronise désormais immédiatement l'état de la sourdine en plus du volume.
+- **Importations de Streaming** : Correction des importations brisées suite à la suppression des fichiers `__init__.py`.
+
+---
+
 ## [0.0.6] — 2026-08-06
 
 ### Added
