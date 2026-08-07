@@ -1,3 +1,4 @@
+
 # Changelog — Audio Manager
 
 ---
@@ -83,3 +84,21 @@
 ## [0.0.1] — *Changelog not available*
 
 > The changelog feature was introduced in 0.0.3. No release notes were recorded for this version.
+
+---
+
+### 🔐 Verification
+
+This release is signed with GPG. You can verify the authenticity of the executable before running it.
+
+**Public key fingerprint:**
+```
+34C2C91E106AD7833D65785F1F5E959577226B2C
+```
+
+**Verify the signature:**
+```bash
+gpg --verify AudioManager.asc AudioManager
+```
+
+> If the verification fails or the fingerprint doesn't match, do **not** run the executable — it may have been tampered with.
