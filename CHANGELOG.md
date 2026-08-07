@@ -16,7 +16,7 @@
 - **Code optimization**: Overall code cleanup and improved module structure.
 
 ### Fixed
-- Fixed a bug where the navigation button to the Streaming page was not translated (present since v0.0.6).
+- Fixed a bug where the navigation button to the Streaming page was not translated, present since the introduction of the translation system. Note: in v0.0.8, an option will be added to allow the \"Streaming\" button to remain untranslated, since many users already understand the term as-is (translated as \"Flux\" in French, \"Transmisión\" in Spanish). This option may be removed later.
 
 ---
 
