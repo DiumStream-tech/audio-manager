@@ -16,9 +16,7 @@
 - **Optimisation du Code** : Nettoyage global du code et amélioration de la structure des modules.
 
 ### Fixed
-- **Liaison des Sourdines (Mute)** : Correction d'un bug où la sourdine n'était pas synchronisée entre le mixage Casque et Stream lorsque le lien était activé.
-- **Synchronisation au Lien** : La liaison d'un canal synchronise désormais immédiatement l'état de la sourdine en plus du volume.
-- **Importations de Streaming** : Correction des importations brisées suite à la suppression des fichiers `__init__.py`.
+- Fixed a bug where the navigation button to the Streaming page was not translated (present since v0.0.6).
 
 ---
 
